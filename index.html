@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mad Science!</title>
+	<script src="node_modules/phaser/dist/phaser.js"></script>
+	<script src="build/app.js"></script>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			width: 100%;
+			background-color: #585858;
+		}
+		#container {
+			margin: 0 auto;
+			width: 1280px;
+			position: relative;
+			transition: opacity 500ms;
+			opacity: 1;
+		}
+		#container.inactive {
+			opacity: 0;
+		}
+		#cloneNameForm {
+			position: absolute;
+			width: 150px;
+			height: 15px;
+			margin-left: -75px;
+			opacity: 0;
+	  	z-index: -1;
+			transition: opacity 750ms linear;
+			top: 0;
+			left: 0;
+		}
+		#cloneNameForm.active {
+			z-index: 10;
+			opacity: 1;
+		}
+		#cloneNameLabel {
+			color: #CCC;
+			text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		}
+		#cloneNameForm * {
+			width: 100%;
+			padding: 1px 0;
+			display: block;
+			border: 0;
+		}
+		#confirmName {
+			margin-top: 2px;
+		}
+	</style>
+</head>
+<body style="background-color: #585858">
+<div id="container" class="container"></div>
+</body>
+</html>

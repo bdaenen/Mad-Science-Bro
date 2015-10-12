@@ -1,0 +1,28 @@
+{
+  "author": "Benno Daenen",
+  "name": "MadScience",
+  "version": "0.0.1",
+  "description": "Our submission for JS48, first edition",
+  "main": "build/app.js",
+  "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdaenen/Mad-Science-Bro.git"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.4.0",
+    "gulp-util": "^3.0.6",
+    "lodash": "^3.10.1",
+    "merge-stream": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1"
+  },
+  "dependencies": {
+    "phaser": "^2.4.3"
+  }
+}
