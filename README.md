@@ -15,7 +15,7 @@ You'll need [node and npm](https://nodejs.org/) to build this locally. Then:
    
 As Phaser is directly loaded in the ``` index.html ``` you'll need to include it in one way or another if you want to release anything.
 
-For example, the .zip we uploaded to itch.io uploaded contained: 
+For example, the .zip we uploaded to itch.io contained: 
  1. the ``` assets ``` folder
  2. the ``` app.min.js ``` from the ``` build ``` folder
  3. a copy of the latest ``` Phaser.min.js ```
