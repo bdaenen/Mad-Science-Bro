@@ -2,7 +2,7 @@ Mad Science, Bro!
 =================
 
 ### Introduction
-This is an entry to https://itch.io/jam/js48-1 made with [Phaser](http://phaser.io/). Our (me and  [RustiSub](https://github.com/RustiSub)) submission can be found at https://itch.io/jam/js48-1/rate/39200. The design, all code and all assets were created in under 48 hours.  
+This is an entry to https://itch.io/jam/js48-1 made with [Phaser](http://phaser.io/). Our (me and  [RustiSub](https://github.com/RustiSub)) submission can be found at https://itch.io/jam/js48-1/rate/39200. The design, all game-specific code and all assets were created in under 48 hours.  
 **The code is far from clean for obvious reasons :)**
 
 ### Building locally
